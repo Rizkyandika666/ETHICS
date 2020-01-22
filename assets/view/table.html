@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <!-- deskripsi -->
+    <!-- cellpadding buat isi table biar melebar
+    cellspacing buat hilangin / nambah jarak antar kolom
+    rowspan buat menggabung baris
+    colspan baut menggabung kolom -->
+
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <td>Description</td>
+                <td>Qty</td>
+                <td>Price</td>
+                <td>Email</td>
+            </tr>
+        </thead>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+                <td rowspan="5">
+                    <table border="1" cellpadding="5">
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+
+                        <tr>
+                            <td>1</td>
+                            <td>1</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="2">1</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td colspan="2">1</td>
+                <td>1</td>
+            </tr>
+    </table>
+</body>
+</html>
